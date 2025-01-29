@@ -7,6 +7,9 @@
     margin: 8rem auto;
     
 }
+.main-header{
+   column-gap: 2rem;
+}
 .header-buttons{
     width: 350px;
     display: flex;
