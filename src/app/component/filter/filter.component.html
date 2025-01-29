@@ -1,0 +1,33 @@
+<div class="custom-dropdown">
+    <button (click)="toggleDropdown()" class="filter">
+        <h4>Filter by status</h4>
+      <span class="arrow-down">
+        <img src="../../assets/images/Path 2.svg" alt="">
+      </span>
+    </button>
+    <form class="dropdown-content" *ngIf="dropdownOpen" (change)="applyFilters()">
+      <div>
+        <label>
+          <input type="checkbox" [(ngModel)]="statuses.paid" 
+          name="paid"
+          [checked]="statuses.paid"/>
+          paid
+        </label>
+      <div >
+        <label>
+          <input type="checkbox" [(ngModel)]="statuses.pending"
+          name="pending"
+          [checked]="statuses.pending"/>
+        pending
+        </label>
+      <div >
+        <label>
+          <input type="checkbox" [(ngModel)]="statuses.draft" 
+          name="draft" 
+          [checked]="statuses.draft"/>
+         draft
+           </label>
+      </div>
+    <!-- </form> -->
+  </div>
+
