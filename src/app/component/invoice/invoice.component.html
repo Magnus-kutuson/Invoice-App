@@ -4,6 +4,6 @@
             <p>{{ dataList.paymentDue }}</p>
             <p>{{ dataList.clientName }}</p>
             <p>{{ dataList.total }}</p>
-            <p>{{ data.status }}</p>
+           <app-badge [status]="dataList.status">{{ dataList.status }}</app-badge>
         </div>
 </div>

@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { DataServiceService } from '../shared/data-service.service';
 import { CommonModule } from '@angular/common';
+import { BadgeComponent } from '../badge/badge.component';
 
 @Component({
   selector: 'app-invoice',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, BadgeComponent],
   templateUrl: './invoice.component.html',
   styleUrl: './invoice.component.css'
 })
