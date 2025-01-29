@@ -5,8 +5,18 @@
     border-radius: 0 1rem 1rem 0;
 }
 
-.sidebar-icon{
+.sidebar-logo{
     background: url("../../../assets/images/logo.svg") no-repeat center;
     width: 103px;
     height: 100px;
 }
+.sidebar-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.avatar {
+    background: url('../../../assets/images/Oval.png') center center / cover no-repeat;
+    width: 40px;
+    height: 40px;
+ }
+
