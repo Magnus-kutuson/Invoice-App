@@ -1,5 +1,5 @@
 .sidebar {        
-    background-color: #373B53; 
+    background-color: var(--color-steel-gray); 
     border-radius: 0; 
     justify-content: space-between; 
     /* border-radius: 0 1.5rem 1.5rem 0;  */
@@ -16,6 +16,8 @@
         align-items: center;  
      }
 
+
+
     .logo {
     background: url('../../../assets/images/logo.svg') center center / cover no-repeat;
     width: 103px;
@@ -29,7 +31,7 @@
         left: 0;         
         width: 103px;    
         height: 100vh;   
-        background-color: #373B53; 
+        background-color: var(--color-steel-gray); 
         border-radius: 0; 
         display: flex;    
         flex-direction: column; 
