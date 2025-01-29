@@ -1,0 +1,12 @@
+.sidebar{
+    background-color: var(--color-steel-gray);
+    width: 103px;
+    height: 100vh;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.sidebar-icon{
+    background: url("../../../assets/images/logo.svg") no-repeat center;
+    width: 103px;
+    height: 100px;
+}
