@@ -1,0 +1,34 @@
+.badge {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  width: 10rem;
+  text-align: center;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.paid {
+  background-color: #33d6a02e;
+  color: var(--color-mint-green);
+}
+
+.draft {
+  background-color: #373b532e;
+  color: var(--color-dark-grey);
+}
+
+.pending {
+  background-color: #ff910017;;
+  color: var(--color-amber);
+}
+
+.dot {
+  height: 0.8rem;
+  width: 0.8rem;
+  border-radius: 50%;
+  margin-right: 0.6rem;
+  /* display: inline-block; */
+}

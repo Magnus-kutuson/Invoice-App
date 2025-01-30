@@ -1,0 +1,16 @@
+<div>
+    <app-header></app-header>
+    <div class="invoice-container"  *ngFor="let dataList of data">
+        <div class="invoice-content">
+            <h3><span>#</span>{{ dataList.id }}</h3>
+            <p>{{ dataList.paymentDue }}</p>
+            <p>{{ dataList.clientName }}</p>
+            <h3><span>&#163;</span>{{ dataList.total }}</h3>
+           <app-badge [status]="dataList.status">{{ dataList.status }}</app-badge>
+           <img src="../../../assets/images/arrow-right.svg" alt="arrow-right">
+        </div>
+</div>
+</div>
+
+
+
