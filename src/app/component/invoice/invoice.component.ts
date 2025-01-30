@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { DataServiceService } from '../shared/data-service.service';
+import { DataServiceService } from '../../shared/data-service.service';
 import { CommonModule } from '@angular/common';
 import { BadgeComponent } from '../badge/badge.component';
 import { HeaderComponent } from '../header/header.component';
